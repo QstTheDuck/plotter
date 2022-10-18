@@ -1,0 +1,7 @@
+functions:
+    Load_fig:
+        reads the file and puts the location data in variable gcode
+    Select:
+        Load_fig and make the list ready to be read and drawn
+    Move:
+        move the pen to the location given

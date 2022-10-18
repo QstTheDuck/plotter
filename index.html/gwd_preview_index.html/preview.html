@@ -1,0 +1,32 @@
+<html><head>
+    <!--
+    Load various Web Components polyfills required by IE and Edge. While the polyfills are
+    not needed for other browsers, they're loaded irrespective of browser features because we rely
+    on the polyfill's `WebComponentsReady` event as a signal that the app is ready to be initialized
+    (see init.js).
+    -->
+    <!-- Polyfill Web Components. -->
+    <script src="webcomponentsjs/webcomponents-lite.js"></script>
+
+    <!-- Polyfill Web Animations. This file is necessary for some paper elements. -->
+    <script src="webcomponentsjs/web-animations-next-lite.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Roboto:regular">
+
+    <script src="preview_polymer.js"></script>
+
+    <style>
+      body {
+        margin: 0;
+      }
+
+      tf-creative-preview {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  <script>window.gwdPreview = {"config":{"uuid":1664985190224,"previewPath":"index.html","modes":["mobile","desktop"],"sizes":[],"feeds":{},"feedNames":[],"defaults":{"mode":"desktop","modeSettings":{"mobile":{"device":"pixel2xl","feed":null},"desktop":{"feed":null}}}},"strings":{"MSG_ALL_FEEDS_MODE":"Alle voorbeeldgegevens","MSG_ALL_SIZES_MODE":"Alle formaten","MSG_CUSTOM":"Aangepast","MSG_CUSTOM_SIZE":"Aangepast formaat","MSG_DESKTOP_MODE":"Desktop","MSG_DEVICE":"Apparaat","MSG_MOBILE_MODE":"Mobiel","MSG_NO_SAMPLE_DATA":"Geen voorbeeldgegevens","MSG_NO_SAMPLE_DATA_TO_PREVIEW":"Selecteer voorbeeldgegevens om voorbeelden te bekijken.","MSG_NO_SIZES_TO_PREVIEW":"Selecteer formaten om voorbeelden te bekijken.","MSG_NONE_SELECTED":"Niets geselecteerd","MSG_PARALLAX_MODE":"Scrollbaar","MSG_PREVIEW_MODE":"Voorbeeldmodus","MSG_RELOAD":"Opnieuw laden","MSG_RELOAD_ALL":"Alles opnieuw laden","MSG_ROTATE_DEVICE":"Apparaat draaien","MSG_SAMPLE_FEED":"Voorbeeldgegevens","MSG_SAMPLE_FEEDS":"Voorbeeldgegevens","MSG_SELECT_ALL":"Alles selecteren","MSG_SELECT_NONE":"Geen selecteren","MSG_SELECTED":"{num} geselecteerd","MSG_SHOW_SIZE":"Formaat tonen","MSG_SHOW_SIZES":"Formaten tonen","MSG_SINGLE_MODE":"E\u00e9n formaat","MSG_VIEWPORT_SIZE":"Formaat van viewport"}};</script></head>
+
+  <body>
+
+</body></html>
